@@ -23,6 +23,7 @@ $background-color: #aaaaaa;
 $box-shadow-light: 0 .5rem 1rem rgba($color-black, .15);
 $box-shadow-medium: 0 1rem 2rem rgba($color-black, .15);
 $box-shadow-dark: 0 1.5rem 4rem rgba($color-black, .15);
+$box-shadow-darker: 0 1.5rem 6rem rgba($color-black, .2);
 
 // DEFAULT FONT SIZE
 $default-font-size: 1.6rem;
@@ -32,3 +33,5 @@ $grid-width: 114rem;
 $gap-vertical: 8rem;
 $gap-horizontal: 6rem;
 
+// BORDER RADIUS
+$border-radius: 3px;
