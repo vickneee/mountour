@@ -21,7 +21,7 @@
     &:focus {
       outline: none;
       box-shadow: $box-shadow-medium;
-      border-bottom: 3px solid $color-tertiary-dark;
+      border-bottom: 3px solid $color-primary-dark;
     }
 
     &:focus:invalid {
