@@ -1,5 +1,6 @@
 .form {
   backface-visibility: hidden;
+  overflow: hidden;
 
   &__group:not(:last-child) {
     margin-bottom: 2rem;
@@ -59,6 +60,7 @@
 
   &__radio-label {
     font-size: $default-font-size;
+    color: $color-grey-dark-1;
     cursor: pointer;
     position: relative;
     padding-left: 4.5rem;
