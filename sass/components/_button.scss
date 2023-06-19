@@ -30,7 +30,7 @@
   &--animated {
     margin-top: 3rem;
     background-color: $color-white;
-    color: $color-grey-dark;
+    color: $color-grey-dark-1;
 
     animation-name: moveInBottom;
     animation-duration: 5s;
@@ -41,7 +41,7 @@
 
   &--white {
     background-color: $color-white;
-    color: $color-grey-dark;
+    color: $color-grey-dark-1;
 
     &::after {
       background-color: $color-white;
