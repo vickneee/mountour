@@ -374,14 +374,15 @@ body {
     .form__input:focus:invalid {
       border-bottom: 3px solid #F76B1C; }
     .form__input::-webkit-input-placeholder {
-      color: #999; }
+      color: #666; }
   .form__label {
     font-size: 1.2rem;
     font-weight: 700;
     margin-left: 2rem;
     margin-top: .7rem;
     display: block;
-    transition: all .3s ease-in-out; }
+    transition: all .3s ease-in-out;
+    color: #666; }
   .form__input:placeholder-shown + .form__label {
     opacity: 0;
     visibility: hidden;
@@ -393,7 +394,7 @@ body {
     display: none; }
   .form__radio-label {
     font-size: 1.6rem;
-    color: #777;
+    color: #666;
     cursor: pointer;
     position: relative;
     padding-left: 4.5rem; }
