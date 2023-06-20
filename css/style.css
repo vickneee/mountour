@@ -425,6 +425,37 @@ body {
   .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
     opacity: 1; }
 
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(51, 51, 51, 0.8);
+  z-index: 2500; }
+  .popup__content {
+    width: 75%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 6rem rgba(51, 51, 51, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: table; }
+  .popup__left {
+    width: 33.3333333%;
+    display: table-cell;
+    vertical-align: middle; }
+  .popup__left--img {
+    display: block;
+    width: 100%; }
+  .popup__right {
+    padding: 2rem 3rem;
+    width: 66.666666%;
+    display: table-cell;
+    vertical-align: middle; }
+
 .story {
   width: 75%;
   margin: 0 auto 8rem;
