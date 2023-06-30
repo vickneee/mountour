@@ -11,3 +11,4 @@ A fictional travel agency's landing page was made using HTML, CSS, and SCSS.
 - HTML
 - CSS
 - SCSS
+- JavaScript
