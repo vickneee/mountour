@@ -12,8 +12,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -6rem;
+    margin-top: -8rem;
     margin-bottom: 6rem;
+
+    @include respond(tab-port) {
+      margin-top: -6rem;
+      margin-bottom: 4rem;
+    }
   }
 
   &__logo {
@@ -25,7 +30,7 @@
     font-size: 2.5rem;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 1.6rem;
+    letter-spacing: 1.4rem;
   }
 
   &__navigation {
@@ -74,7 +79,7 @@
   &__copyright {
     border-top: 1px solid $color-grey-dark-4;
     padding-top: 2rem;
-    width: 81%;
+    width: 80%;
     float: right;
     color: $color-white;
   }
