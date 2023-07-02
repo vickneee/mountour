@@ -41,8 +41,8 @@
     transition: transform .8s cubic-bezier(0.65, 0, 0.35, 1);
 
     @include respond(tab-port) {
-      top: 5.5rem;
-      right: 5.5rem;
+      top: 5.25rem;
+      right: 5.25rem;
     }
     //
     //@include respond(phone) {
