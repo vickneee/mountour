@@ -149,15 +149,9 @@ body {
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important; }
-  @media (max-width: 56.25em) {
-    .u-margin-bottom-medium {
-      margin-top: 3rem !important; } }
 
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
-  @media (max-width: 56.25em) {
-    .u-margin-bottom-big {
-      margin-top: 5rem !important; } }
 
 .u-margin-bottom-huge {
   margin-bottom: 10rem !important; }
@@ -364,6 +358,15 @@ body {
     z-index: 10;
     transition: all .2s;
     outline-offset: 1.4rem; }
+    @media (max-width: 56.25em) {
+      .composition__photo {
+        float: left;
+        position: relative;
+        width: 33.3333333%;
+        box-shadow: 0 1.5rem 4rem rgba(51, 51, 51, 0.4);
+        z-index: 10;
+        transition: all .2s;
+        outline-offset: 1.4rem; } }
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
