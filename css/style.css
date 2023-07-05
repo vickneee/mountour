@@ -77,7 +77,6 @@ body {
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: 3.2rem;
-    padding-left: 3.2rem;
     animation-name: moveInTop;
     animation-duration: 5s;
     animation-timing-function: ease-in;
@@ -91,8 +90,7 @@ body {
     display: block;
     font-size: 2rem;
     font-weight: 400;
-    letter-spacing: .9rem;
-    padding-left: 0.8rem;
+    letter-spacing: 1rem;
     animation-name: moveInBottom;
     animation-duration: 5s;
     animation-timing-function: ease-in; }
