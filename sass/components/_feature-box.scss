@@ -19,6 +19,10 @@
     background-image: linear-gradient(to bottom, $color-primary, $color-primary);
     -webkit-background-clip: text;
     color: transparent;
+
+    @include respond(tab-port) {
+      margin-bottom: -.5rem;
+    }
   }
 
   &:hover {
