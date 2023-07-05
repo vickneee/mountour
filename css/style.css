@@ -406,7 +406,8 @@ body {
         float: left;
         position: relative;
         width: 33.3333333333%;
-        box-shadow: 0 1.5rem 3rem rgba(51, 51, 51, 0.2); } }
+        box-shadow: 0 1.5rem 3rem rgba(51, 51, 51, 0.2);
+        outline-offset: .4rem; } }
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
@@ -489,6 +490,9 @@ body {
     width: 90%;
     display: block;
     transition: all .3s ease-in-out; }
+    @media (max-width: 56.25em) {
+      .form__input {
+        width: 100%; } }
     .form__input:focus {
       outline: none;
       box-shadow: 0 1rem 2rem rgba(51, 51, 51, 0.15);
@@ -563,9 +567,6 @@ body {
   .popup:target {
     opacity: 1;
     visibility: visible; }
-  .popup:target .popup__content {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1); }
   .popup__close:link, .popup__close:visited {
     color: #777;
     position: absolute;
@@ -588,10 +589,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     display: table;
-    overflow: hidden;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.5);
     transition: all 1s .2s; }
+    @media (max-width: 56.25em) {
+      .popup__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; } }
+  .popup:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
   .popup__left {
     width: 33.3333333%;
     display: table-cell;
@@ -612,7 +621,7 @@ body {
     vertical-align: middle; }
     @media (max-width: 56.25em) {
       .popup__right {
-        display: flow; } }
+        width: 100%; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 3rem;
@@ -629,17 +638,6 @@ body {
     @media (max-width: 56.25em) {
       .popup__text {
         column-count: 1; } }
-  @media (max-width: 56.25em) {
-    .popup__content {
-      width: 75%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; } }
 
 .story {
   width: 75%;

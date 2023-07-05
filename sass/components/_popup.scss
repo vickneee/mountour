@@ -16,11 +16,6 @@
     visibility: visible;
   }
 
-  &:target &__content {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-
   &__close {
     &:link,
     &:visited {
@@ -48,11 +43,23 @@
 
     @include position-center;
     display: table;
-    overflow: hidden;
 
     opacity: 0;
     transform: translate(-50%, -50%) scale(.5);
     transition: all 1s .2s;
+
+    @include respond(tab-port) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+
+  &:target &__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
   }
 
   &__left {
@@ -80,7 +87,8 @@
     vertical-align: middle;
 
     @include respond(tab-port) {
-      display: flow;
+      width: 100%;
+      //overflow-y: scroll;
     }
   }
 
@@ -102,21 +110,9 @@
 
     @include respond(tab-port) {
 
-     column-count: 1;
+      column-count: 1;
 
     }
   }
 
-  @include respond(tab-port) {
-
-    &__content {
-      width: 75%;
-      @include position-center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-  }
 }
