@@ -60,11 +60,11 @@ body {
   transition: all .3s;
 
   @include respond(tab-port) {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   @include respond(phone) {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   &:hover {
