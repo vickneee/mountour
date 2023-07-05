@@ -568,13 +568,19 @@ body {
     opacity: 1;
     visibility: visible; }
   .popup__close:link, .popup__close:visited {
-    color: #777;
+    background-color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 200px;
     position: absolute;
     top: 2rem;
     right: 2.5rem;
+    color: #777;
     font-size: 3rem;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all .2s;
     line-height: 1; }
   .popup__close:hover {
