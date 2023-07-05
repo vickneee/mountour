@@ -23,7 +23,11 @@ html {
   }
 
   //@include respond(phone) { // width < 600px
-  //  font-size: 37.5%; // 1rem = 6px; 6px/16px = 50%
+  //  font-size: 37.5%; // 1rem = 6px; 6px/16px = 37.5%%
+  //}
+
+  //@include respond(phone-small) { // width < 400px
+  //  font-size: 31.25%; // 1rem = 5px; 5px/16px = 31.25%
   //}
 
   @include respond(big-desk) { // width > 1800px

@@ -94,7 +94,11 @@
 
     @include respond(tab-port) {
       width: 100%;
-      //overflow-y: scroll;
+    }
+
+    @include respond(phone) {
+      width: 100%;
+      padding: 1rem 3rem;
     }
   }
 
@@ -115,9 +119,7 @@
     hyphens: auto;
 
     @include respond(tab-port) {
-
       column-count: 1;
-
     }
   }
 

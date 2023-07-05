@@ -1,11 +1,13 @@
 /*
-0 - 600px: Phone
+0 - 400px: Phone Small
+400 - 600px: Phone
 600 - 900px: Tablet Portrait
 900 - 1200px: Tablet Landscape
 [1200 - 1800] is where our normal styles apply
 1800px + : Big Desktop
 
 $breakpoint argument choices:
+- phone-small
 - phone
 - tab-port
 - tab-land
@@ -142,7 +144,7 @@ body {
   margin-bottom: 0 !important; }
   @media (max-width: 56.25em) {
     .u-margin-bottom-0 {
-      margin-bottom: 4rem !important; } }
+      margin-bottom: 3rem !important; } }
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
@@ -628,6 +630,10 @@ body {
     @media (max-width: 56.25em) {
       .popup__right {
         width: 100%; } }
+    @media (max-width: 37.5em) {
+      .popup__right {
+        width: 100%;
+        padding: 1rem 3rem; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 3rem;
