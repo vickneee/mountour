@@ -65,6 +65,7 @@
   &:hover &__photo:not(:hover) {
     transform: scale(.95);
     filter: blur(4px);
+
     -webkit-filter: blur(4px);
   }
 }
