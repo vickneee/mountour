@@ -354,6 +354,34 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
+  @media (max-width: 56.25em) {
+    .card {
+      height: auto;
+      border-radius: 3px;
+      background-color: #ffffff;
+      box-shadow: 0 1.5rem 4rem rgba(51, 51, 51, 0.15); }
+      .card__side {
+        height: auto;
+        position: relative;
+        box-shadow: none; }
+        .card__side--back {
+          transform: rotateY(0);
+          clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%); }
+      .card:hover .card__side--front {
+        transform: rotateY(0); }
+      .card__details {
+        padding: 1rem 2rem; }
+      .card__cta {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0);
+        width: 100%;
+        padding: 7rem 4rem 4rem 4rem; }
+      .card__price-box {
+        margin-bottom: 3rem; }
+      .card__price-value {
+        font-size: 4rem; } }
 
 .composition {
   position: relative; }
@@ -383,7 +411,7 @@ body {
         .composition__photo--p2 {
           top: -1rem;
           transform: scale(1.2);
-          z-index: 100; } }
+          z-index: 20; } }
     .composition__photo--p3 {
       left: 10%;
       top: 12rem; }
@@ -395,8 +423,11 @@ body {
     .composition__photo:hover {
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(51, 51, 51, 0.5);
-      z-index: 20;
+      z-index: 30;
       outline: 1rem ridge #5ca4bd; }
+      @media (max-width: 56.25em) {
+        .composition__photo:hover {
+          z-index: 120; } }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95);
     filter: blur(4px);

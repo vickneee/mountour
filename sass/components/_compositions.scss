@@ -33,7 +33,7 @@
       @include respond(tab-port) {
         top: -1rem;
         transform: scale(1.2);
-        z-index: 100;
+        z-index: 20;
       }
     }
 
@@ -51,8 +51,12 @@
     &:hover {
       transform: scale(1.05) translateY(-.5rem);
       box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
-      z-index: 20;
+      z-index: 30;
       outline: 1rem ridge $color-primary;
+
+      @include respond(tab-port) {
+        z-index: 120;
+      }
 
     }
   }
