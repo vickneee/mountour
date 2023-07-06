@@ -45,5 +45,6 @@ body {
 }
 
 ::selection {
-  background-color: $color-primary-light;
+  background-color: $color-primary;
+  color: $color-white;
 }

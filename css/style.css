@@ -64,7 +64,8 @@ body {
       padding: 0; } }
 
 ::selection {
-  background-color: #85c5db; }
+  background-color: #5ca4bd;
+  color: #ffffff; }
 
 body {
   font-family: "Lato", sans-serif;
