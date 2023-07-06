@@ -1,6 +1,6 @@
 # mountours
 
-A fictional travel agency's landing page was made using HTML, CSS, SCSS and JavaScript. 
+A fictional travel agency's landing page was made using HTML, CSS, SCSS, and JavaScript. Responsive.
 
 ## deployment
 
