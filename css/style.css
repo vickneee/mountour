@@ -728,7 +728,7 @@ body {
     margin-bottom: 6rem; }
     @media (max-width: 56.25em) {
       .footer__logo-box {
-        margin-top: -6rem;
+        margin-top: -4rem;
         margin-bottom: 4rem; } }
   .footer__logo {
     width: 15rem;
@@ -742,10 +742,6 @@ body {
     border-top: 1px solid #999;
     padding-top: 2rem;
     display: inline-block; }
-  @media (max-width: 56.25em) {
-    .footer {
-      align-items: center;
-      justify-content: center; } }
   .footer__list {
     list-style: none;
     text-transform: uppercase; }
@@ -767,13 +763,13 @@ body {
   .footer__copyright {
     border-top: 1px solid #999;
     padding-top: 2rem;
-    width: 80%;
     float: right;
-    color: #ffffff; }
-  @media (max-width: 56.25em) {
-    .footer {
-      width: 100% !important;
-      float: none; } }
+    color: #ffffff;
+    width: 80%; }
+    @media (max-width: 56.25em) {
+      .footer__copyright {
+        width: 100% !important;
+        float: none; } }
 
 .row {
   max-width: 114rem;
@@ -817,7 +813,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(190, 224, 236, 0.8), rgba(102, 182, 210, 0.8)), url("../img/hero-4.jpg");
+  background-image: linear-gradient(to right bottom, rgba(190, 224, 236, 0.8), rgba(102, 182, 210, 0.8)), url("../../img/hero.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -828,7 +824,10 @@ body {
       clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); } }
   @media (max-width: 37.5em) {
     .header {
-      clip-path: polygon(0 0, 100% 0, 100% 86vh, 0 100%); } }
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+  @media (max-width: 31.25em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 3.5rem;
