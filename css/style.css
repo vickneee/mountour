@@ -142,9 +142,6 @@ body {
 
 .u-margin-bottom-0 {
   margin-bottom: 0 !important; }
-  @media (max-width: 56.25em) {
-    .u-margin-bottom-0 {
-      margin-bottom: 3rem !important; } }
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
