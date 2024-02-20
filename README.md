@@ -12,3 +12,4 @@ A fictional travel agency's landing page.
 - CSS
 - SCSS
 - JavaScript
+
