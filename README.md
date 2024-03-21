@@ -1,6 +1,6 @@
 # Mountours
 
-A fictional travel agency's landing page.
+A fictional travel agency's landing page UI.
 
 ## Tech used
 
