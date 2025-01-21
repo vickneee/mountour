@@ -7,7 +7,6 @@ A fictional travel agency UI page. Want to get away from the noise of the town a
 - HTML
 - CSS
 - SCSS
-- JavaScript
 
 ## Deployment
 
